@@ -35,10 +35,15 @@ h1 {
 
 .cardFront {
   background-color: lightgrey;
-  background-image: url(../images/BWWonder.svg);
+  background-image: url("../images/BWWonder.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.cardFront:hover {
+  background-image: url("../images/BWHappy.svg");
+}
+
 
 .cardBack {
   background-color: darkgrey;
